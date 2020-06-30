@@ -7,12 +7,15 @@ int main()
  int c;
  c = a + b;
  int i;
+ int d = a - b;
  
- for(i = 0; i < 100; i++)
+ while(1)
  {
-  printf("%d\n", c);
+  for(i = 0; i < 100; i++)
+  {
+   printf("%d %d\n", c, d);
+  }
  }
-
  return 0;
 }
 
