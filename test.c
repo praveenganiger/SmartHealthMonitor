@@ -3,8 +3,10 @@
 
 int main()
 {
- printf("Hello world\n");
-
+ int a = 2, b  = 3;
+ int c;
+ c = a + b;
+ printf("%d\n", c);
 
  return 0;
 }
