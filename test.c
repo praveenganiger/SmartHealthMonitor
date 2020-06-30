@@ -4,8 +4,6 @@
 int main()
 {
  int a = 2, b  = 3;
- int c;
- c = a + b;
  int i;
  int d = a - b;
  
@@ -13,7 +11,7 @@ int main()
  {
   for(i = 0; i < 100; i++)
   {
-   printf("%d %d\n", c, d);
+   printf("%d\n", d);
   }
  }
  return 0;
